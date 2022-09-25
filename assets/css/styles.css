@@ -511,7 +511,7 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__css {
@@ -519,15 +519,15 @@ img {
 }
 
 .skills__js {
-  width: 50%;
+  width: 70%;
 }
 
 .skills__react {
-  width: 5%;
+  width: 10%;
 }
 
 .skills__figma {
-  width: 80%;
+  width: 90%;
 }
 
 .skills__close .skills__list {
