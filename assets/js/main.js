@@ -108,7 +108,10 @@ let swiper = new Swiper('.portfolio__container', {
 
 /*==================== BUTTON SEND MESSAGE ====================*/
 function myFunction() {
-  document.getElementById('frm1').reset();
+  //reset contact form if else
+  if (document.getElementById('frm1').reset()) {
+    document.getElementById('frm1').reset();
+  }
 }
 
 const tombol = document.getElementById('button-send');
